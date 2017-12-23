@@ -1,0 +1,32 @@
+Aturan ini berlaku pada codeigniter 3, untuk versi lain menyesuaikan. Tetapi lebih baik apabila menyelaraskan dengan ini.
+
+PENAMAAN FILE
+----------------------------------------------
+- GENERAL (Keseluruhan)
+
+* penamaan file class dimulai penggunaan KAPITAL pada awal kata pertama
+  contoh : User.php
+* jika terdiri dari dua kata atau lebih maka penggabungan kata menggunakan underscore ( _ ),
+  kata kedua dan selanjutnya huruf pertama tetap memakai huruf kecil
+  contoh : User_member.php
+* penamaan sedapat mungkin menggunakan bahasa inggris
+
+- MODEL
+
+* penamaan model dengan tambahan kata model dibelakangnya
+  contoh : Auth_model.php
+* kata model tidak boleh ditaruh didepan atau disingkat agar mudah dalam pencarian
+  contoh yang dilarang : Auth_m.php , M_auth.php
+
+
+referensi penamaan yang sering dipakai:
+Auth, User, Member, Admin, Pay
+
+
+PENULISAN
+----------------------------------------------
+* penulisan nama class mengikut penamaan file, huruf Kapital di awal kata pertama, jika dua kata 
+  menghubungkan menggunakan underscore ( _ )
+  contoh : Class User_member{  }
+* penulisan fungsi dan variabel menggunakan huruf kecil semua dan dihubungkan menggunakan underscore ( _ )
+  contoh : function get_all(){ } , $name
